@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "ofont.ru_Tellural Alt.ttf";
+    src: url("fonts/ofont.ru_Tellural Alt.ttf");
+}
+
+body {
+    margin: 0;
+    font-size: 2rem;
+    font-family: "ofont.ru_Tellural Alt.ttf";
+    background-color: #FFF0F5;
+}
+
+.container {
+    max-width: 576px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.input-div label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.input-div input {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 2rem;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.input-div button {
+    font-size: 2rem;
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 5px 7px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.input-div {
+    margin-bottom: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+
+}
+
+.header__foto {
+    border-radius: 50px;
+}
